@@ -2,7 +2,16 @@ package main
 
 import "fmt"
 
-var l int = 55 // global level variable
+var (
+	actorname  string = "Elisabeth Sladen"
+	companion  string = "Sarah Jane Smith"
+	doctorName int    = 3
+	season     int    = 11
+)
+
+var (
+	counter int = 0
+)
 
 func main() {
 
@@ -13,5 +22,5 @@ func main() {
 	//fmt.Printf("hello, world\n")
 	fmt.Println(i, j, k)
 	fmt.Printf("%v, %T\n", j, i) // printf: print format, %v - value, %T - type
-	fmt.Printf("%v, %T", l, l)
+	//fmt.Printf("%v, %T", l, l)
 }
