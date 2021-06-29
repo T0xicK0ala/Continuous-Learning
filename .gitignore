@@ -13,3 +13,10 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Golang
+/go/workspace/bin
+/go/workspace/pkg
+
+# VS/VS Code
+.vscode/*
