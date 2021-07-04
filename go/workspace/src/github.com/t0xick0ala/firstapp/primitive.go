@@ -2,23 +2,11 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
-func main() {
-	var i int = 42
-	fmt.Printf("%v, %T\n", i, i)
-
-	var j float32
-	j = float32(i)
-	fmt.Printf("%v, %T\n", j, j)
-
-	var k string
-	k = strconv.Itoa(i)
-	fmt.Printf("%v, %T\n", k, k)
-
+func Abc() {
 	// primitives
-	/*var n bool = true
+	var n bool = true
 	fmt.Printf("%v, %T\n", n, n)
 
 	n1 := 1 == 1
@@ -64,6 +52,4 @@ func main() {
 
 	r := 'a' // var r rune = 'a'
 	fmt.Printf("%v, %T\n", r, r)
-	*/
-	Abc() // go run *.go
 }
