@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Abc() {
+func pri() {
 	// primitives
 	var n bool = true
 	fmt.Printf("%v, %T\n", n, n)
