@@ -1,8 +1,11 @@
 package main
 
 func main() {
-	//pri() // go run *.go
-	cons()
+	// go run *.go
+	// pri()  // primitives
+	// cons() // constants
+	// arr() // array
+	sli()
 
 	// var i int = 42
 	// fmt.Printf("%v, %T\n", i, i)
